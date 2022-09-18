@@ -1,3 +1,7 @@
+body,html {
+    scroll-behavior: smooth;
+    transition: all .5s;
+}
 .section-header {
     background-color: #ffffff;
     min-height: 100px;
