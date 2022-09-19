@@ -109,7 +109,6 @@ body,html {
                     display: block;
                 }
                 .search-group {
-                    overflow: hidden;
                     display: flex;
                     align-items: center;
                     padding-right: 20px;
@@ -136,17 +135,13 @@ body,html {
                         border-radius: 20px;
                         border: solid #e42313 1px;
                         position: absolute;
-                        // left: -34%;
-                        width: 0%;
                         left: 5%;
-                        opacity: 0;
                         padding-left: 10px;
                         pointer-events: none;
-
+                        display: none;
                         &.active {
                             position: relative;
-                            transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
-                            width: 195px;
+                            display: block;
                             left: 5%;
                             pointer-events: all;
                             opacity: 1;
